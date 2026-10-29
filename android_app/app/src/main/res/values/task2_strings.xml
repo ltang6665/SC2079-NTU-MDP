@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task2_title">Task 2 / The Getaway</string>
+    <string name="task2_home">Home</string>
+    <string name="task2_bluetooth">Bluetooth</string>
+    <string name="task2_stop">Stop</string>
+    <string name="task2_stop_description">Send robot stop command</string>
+    <string name="task2_no_command">No command sent yet.</string>
+    <string name="task2_route_title">The escape route</string>
+    <string name="task2_route_description">Decorative F1-inspired route illustration. No live robot position is shown.</string>
+    <string name="task2_launch">LAUNCH</string>
+    <string name="task2_launch_sent">gogogo</string>
+    <string name="task2_launch_failed">gogogo failed.</string>
+    <string name="task2_stop_sent">Stop command sent.</string>
+    <string name="task2_stop_failed">Stop command not sent. Check Bluetooth.</string>
+    <string name="task2_log_title">Status log</string>
+    <string name="task2_log_empty">Launch and stop attempts will appear here.</string>
+</resources>

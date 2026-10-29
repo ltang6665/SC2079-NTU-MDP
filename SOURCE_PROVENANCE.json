@@ -1,0 +1,190 @@
+{
+  "sources": [
+    {
+      "archive": "PC.zip",
+      "entry": "PC/Checklist.py",
+      "runtime": "PC/Checklist.py",
+      "archive_sha256": "6d858d637f28449df1aac24fd0d35da6537d2af4455a55e4309636e932280e59"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/classes.py",
+      "runtime": "PC/image_labels.py",
+      "archive_sha256": "670cfdc13aa5a7cddbdb558d0084cd08867c895f98d6c672e27e8cc1dd26ba2e"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/algo.py",
+      "runtime": "PC/pathfinding/route_solver.py",
+      "archive_sha256": "79e596875e63cea0d2eea807954466a16272333849406550548da0fa3585b8ff"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/consts.py",
+      "runtime": "PC/pathfinding/settings.py",
+      "archive_sha256": "42fe3f7d11062305eb44d0ab4270336c45679ce3931616d0b024015895ec9e66"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/entities/Entity.py",
+      "runtime": "PC/pathfinding/entities/arena.py",
+      "archive_sha256": "d2cd80fc0093d9f568ba28f64d6fda0d38156946cd1d45826b3618bdc8b61c87"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/entities/Robot.py",
+      "runtime": "PC/pathfinding/entities/robot_model.py",
+      "archive_sha256": "c97936f6531833ddf1884093c714af64228bc8bfad1f16a9104d8074f83e1528"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/helper.py",
+      "runtime": "PC/pathfinding/motion_commands.py",
+      "archive_sha256": "d19b9363800483e606bad7ed89500f1d413f378abeebd3a0bd6e18a7c7e412da"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/pathfinding.py",
+      "runtime": "PC/pathfinding/pathfinding.py",
+      "archive_sha256": "3901f32152a72b3ac3a16323171a8b8a79243ddc1e22bf2bf1a7f234cecb8f76"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/regression_test.py",
+      "runtime": "PC/pathfinding/regression_test.py",
+      "archive_sha256": "69e21e35cd64c93e5a5c7d4dd949eaf973c66f014d63a42475b75972828c7fcd"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/pathfinding/__init__.py",
+      "runtime": "PC/pathfinding/__init__.py",
+      "archive_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/stitching.py",
+      "runtime": "PC/image_stitching.py",
+      "archive_sha256": "c283e31a55d77db064f8d56a9f0975ab2bad144128bd7aa84258f70ffa5eee59"
+    },
+    {
+      "archive": "PC.zip",
+      "entry": "PC/Task1.py",
+      "runtime": "PC/Task1.py",
+      "archive_sha256": "6d96935351457f7f93ce65b7f745595a34460b0ac160ef3adb9374c046dd3448"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/api-request.py",
+      "runtime": "RPI/api-request.py",
+      "archive_sha256": "f4e8bbda7ba4e479a8156fe1917c64a542ac3e888933e113cb98ca1d4195b992"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/bt-test.py",
+      "runtime": "RPI/bt-test.py",
+      "archive_sha256": "1fff45586e70f10b7727481060c11d33cf51895474a4e46b297184be926d44e4"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/camtest.py",
+      "runtime": "RPI/camtest.py",
+      "archive_sha256": "2ff17ee4d35f5d2f1a4b507d7d54649ed31202ab0d8e9303a7e4cd2646c3d909"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/checklist.py",
+      "runtime": "RPI/checklist.py",
+      "archive_sha256": "75a2e32e1ce06c9483a6eb88479bf8e818f0d890526e6768df88f9130aba510e"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/communications/android.py",
+      "runtime": "RPI/communications/android_link.py",
+      "archive_sha256": "85a0447c97043f3f26496102be40ad8fe7bd2980191014241ba4c2c522a13d68"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/communications/pc.py",
+      "runtime": "RPI/communications/pc_link.py",
+      "archive_sha256": "a18202387972d69c0c31e61c67b4284fcba6263e98c170e9a3bfa7aeaab94a37"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/pc_connection_test.py",
+      "runtime": "RPI/pc_connection_test.py",
+      "archive_sha256": "6bf4c38afbe7a2bc4212939759016ff0ccef17a1046c027656ef933ad09977a2"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/stm-test.py",
+      "runtime": "RPI/stm-test.py",
+      "archive_sha256": "ba91fe549252d48e282f6dffe1fe39f9d26c86a7470d8c2cdfb689216c0d8f6b"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/stm_cmd.py",
+      "runtime": "RPI/stm_cmd.py",
+      "archive_sha256": "51ea344d76e3c123b069a8c208cfaf6829d326e8ae9a5e6888db806b2a5af823"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/streaming/stream_server.py",
+      "runtime": "RPI/streaming/camera_server.py",
+      "archive_sha256": "9961a262307cbd7d9b0954c1931c0a6ea94834444f63afc1d47ea20938e31fc9"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/stream_test.py",
+      "runtime": "RPI/stream_test.py",
+      "archive_sha256": "9bee36d5e295a8a0adfcd5b44fa15f98d4f5f9fa9dd2b7fafeaa3f629b12ab94"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/task1.py",
+      "runtime": "RPI/task1.py",
+      "archive_sha256": "f012c65579ed222734317bc50d9b14be597b5fa8c30726f06dad6657efaaeb7c"
+    },
+    {
+      "archive": "RPI.zip",
+      "entry": "RPI/task1_no_seg.py",
+      "runtime": "RPI/task1_no_seg.py",
+      "archive_sha256": "a3077979801af9bdd33802b638a08f6826eead134e89954bbcbd5e2f0403301f"
+    },
+    {
+      "archive": "IMAGE.zip",
+      "entry": "IMAGE/clean_data.py",
+      "runtime": "IMAGE/clean_data.py",
+      "archive_sha256": "6fe6190f23bed8d87df9816a51ba7177711ad046e6bf6388340462e936e42804"
+    },
+    {
+      "archive": "IMAGE.zip",
+      "entry": "IMAGE/rename_data.py",
+      "runtime": "IMAGE/rename_data.py",
+      "archive_sha256": "41e1835f7298ce182320f7a1329ad7192efe7e001ee39fe35edf4630db34aff4"
+    },
+    {
+      "archive": "IMAGE.zip",
+      "entry": "IMAGE/train_model.py",
+      "runtime": "IMAGE/train_model.py",
+      "archive_sha256": "70d556e311c129c0770069a5d6e929e453774063e20d546bf2179d09f928199e"
+    }
+  ],
+  "android_sources": [
+    "android_app/app/src/androidTest/java/com/example/android_app/ExampleInstrumentedTest.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/ArenaActivity.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/ArenaView.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/Facing.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/Obstacle.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/Robot.kt",
+    "android_app/app/src/main/java/com/example/android_app/arena/Task2Activity.kt",
+    "android_app/app/src/main/java/com/example/android_app/bluetooth/BluetoothActivity.kt",
+    "android_app/app/src/main/java/com/example/android_app/bluetooth/BluetoothService.kt",
+    "android_app/app/src/main/java/com/example/android_app/bluetooth/DeviceListAdapter.kt",
+    "android_app/app/src/main/java/com/example/android_app/bluetooth/Protocol.kt",
+    "android_app/app/src/main/java/com/example/android_app/MainActivity.kt",
+    "android_app/app/src/main/java/com/example/android_app/others/ConnectionStatusBar.kt",
+    "android_app/app/src/test/java/com/example/android_app/ExampleUnitTest.kt"
+  ],
+  "new_model_sha256": "61f31a2b1aadc152e0f5b67e6c5738c64df43e546c5ac0ae1dc4c333ee163ba7",
+  "old_model_sha256": "12228af4e07735efa77214ecaefd392135ab6e4ce321d45e67d7fb3541ba91a8"
+}

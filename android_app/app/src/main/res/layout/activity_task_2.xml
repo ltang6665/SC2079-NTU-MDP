@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task2Root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/heist_background">
+
+    <include layout="@layout/connection_status_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:accessibilityHeading="true"
+                android:text="@string/task2_title"
+                android:textAppearance="@style/TextAppearance.Heist.Title"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/task2BodyScroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        android:paddingHorizontal="12dp"
+        android:paddingBottom="12dp">
+
+        <!-- Outer Horizontal Layout for Left/Right split -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <!-- LEFT COLUMN: Escape Route -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_heist_panel"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:accessibilityHeading="true"
+                    android:text="@string/task2_route_title"
+                    android:textAppearance="@style/TextAppearance.Heist.Section" />
+
+                <!-- Removed forced weight/height stretching, restored natural 180dp height -->
+                <ImageView
+                    android:id="@+id/task2RouteIllustration"
+                    android:layout_width="match_parent"
+                    android:layout_height="331dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_heist_inset"
+                    android:contentDescription="@string/task2_route_description"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/task2_route_illustration" />
+            </LinearLayout>
+
+            <!-- RIGHT COLUMN: Launch Button & Log -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="239dp"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnBeginTask2"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/red_button_3d"
+                        android:stateListAnimator="@animator/red_button_press_down_animator"
+                        android:text="@string/task2_launch"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Log Panel -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_heist_panel"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:accessibilityHeading="true"
+                        android:text="@string/task2_log_title"
+                        android:textAppearance="@style/TextAppearance.Heist.Section" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="132dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg_heist_inset">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/task2LogScroll"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fillViewport="true"
+                            android:scrollbars="vertical">
+
+                            <TextView
+                                android:id="@+id/task2ActionLog"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="12dp"
+                                android:textAppearance="@style/TextAppearance.Heist.Telemetry"
+                                android:textColor="@color/heist_text"
+                                android:textIsSelectable="true" />
+                        </androidx.core.widget.NestedScrollView>
+
+                        <TextView
+                            android:id="@+id/task2LogEmpty"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:padding="12dp"
+                            android:text="@string/task2_log_empty"
+                            android:textAppearance="@style/TextAppearance.Heist.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MDPGrp28</string>
+    <string name="title_bluetooth">Bluetooth</string>
+    <string name="title_arena">The Job · Arena</string>
+    <string name="btn_connect">Connect to Device</string>
+    <string name="btn_start">Open arena</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_ready">Ready</string>
+    <string name="btn_forward">▲</string>
+    <string name="btn_backward">▼</string>
+    <string name="btn_left">◀</string>
+    <string name="btn_right">▶</string>
+    <string name="btn_stop">■</string>
+    <string name="btn_start_run">Start</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_ready">Arena ready</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_scanning">Scanning…</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected: %1$s</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+    <string name="hint_message">Type message to send</string>
+    <string name="hint_paired_devices">Paired devices</string>
+    <string name="label_status_log">Status log</string>
+    <string name="label_face_dialog">Set target face for obstacle %1$d</string>
+    <string name="face_north">North</string>
+    <string name="face_south">South</string>
+    <string name="face_east">East</string>
+    <string name="face_west">West</string>
+    <string name="face_none">Clear</string>
+</resources>

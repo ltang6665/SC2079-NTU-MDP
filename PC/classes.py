@@ -1,0 +1,7 @@
+if __name__ == "__main__":
+    import runpy
+    runpy.run_module('image_labels', run_name="__main__")
+else:
+    import sys
+    import image_labels as _implementation
+    sys.modules[__name__] = _implementation

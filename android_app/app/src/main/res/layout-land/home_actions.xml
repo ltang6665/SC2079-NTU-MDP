@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp" android:background="@drawable/bg_heist_panel">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/heist_briefing" android:textAppearance="@style/TextAppearance.Heist.Section" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:lineSpacingExtra="4dp"
+        android:text="@string/heist_briefing_body" android:textAppearance="@style/TextAppearance.Heist.Body" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/connectBluetoothButton"
+        style="@style/Widget.Heist.Button.Primary" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="48dp" android:layout_marginTop="12dp" android:text="@string/heist_connect" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/startButton"
+        style="@style/Widget.Heist.Button.Secondary" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="48dp" android:layout_marginTop="12dp" android:text="@string/heist_open_arena" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/task2Button"
+        style="@style/Widget.Heist.Button.Secondary" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="48dp" android:layout_marginTop="12dp" android:text="@string/heist_open_task2" />
+</LinearLayout>

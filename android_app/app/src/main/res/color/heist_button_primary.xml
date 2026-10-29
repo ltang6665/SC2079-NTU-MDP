@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/heist_surface_raised" />
+    <item android:state_focused="true" android:color="@color/heist_blueprint" />
+    <item android:color="@color/heist_red" />
+</selector>

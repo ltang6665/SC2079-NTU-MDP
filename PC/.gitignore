@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Model weights
+*.pt
+
+# Stitching output images
+stitches/
+*.jpg
+*.png

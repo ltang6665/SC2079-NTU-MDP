@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="24dp">
+    <TextView android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/heist_title" android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic" android:textSize="64sp" android:textColor="@color/heist_text" />
+    <View android:layout_width="56dp" android:layout_height="4dp"
+        android:layout_marginTop="8dp" android:background="@color/heist_red" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:text="@string/heist_identity"
+        android:textAppearance="@style/TextAppearance.Heist.Title" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:lineSpacingExtra="4dp"
+        android:text="@string/heist_description" android:textAppearance="@style/TextAppearance.Heist.Body" />
+    <ImageView android:layout_width="match_parent" android:layout_height="120dp"
+        android:layout_marginTop="24dp" android:src="@drawable/heist_vault_plan"
+        android:scaleType="fitCenter" android:importantForAccessibility="no" />
+</LinearLayout>

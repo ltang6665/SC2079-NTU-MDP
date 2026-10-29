@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/heist_background">
+
+    <include android:id="@+id/connectionStatusBar" layout="@layout/connection_status_bar" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:orientation="horizontal" android:paddingHorizontal="12dp" android:paddingBottom="8dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <!-- Arena takes up entire FrameLayout -->
+            <com.example.android_app.arena.ArenaView
+                android:id="@+id/arenaView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/heist_arena_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/heist_arena_title"
+                android:textAppearance="@style/TextAppearance.Heist.Title"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/arenaSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:textAppearance="@style/TextAppearance.Heist.Telemetry" />
+
+            <!-- Help button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnArenaHelp"
+                style="@style/Widget.Heist.Button.Secondary"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:insetLeft="7dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                android:padding="0dp"
+                android:contentDescription="@string/heist_arena_help"
+                android:text="@string/heist_help_button" />
+
+        </FrameLayout>
+
+        <androidx.core.widget.NestedScrollView android:id="@+id/rightPanel" android:layout_width="280dp" android:layout_height="match_parent"
+            android:layout_marginStart="10dp" android:fillViewport="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:padding="12dp" android:orientation="vertical">
+
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:columnCount="3" android:rowCount="3">
+
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnForward"
+                        style="@style/Widget.Heist.Button.Drive" android:layout_width="64dp" android:layout_height="48dp"
+                        android:layout_row="0" android:layout_column="1" android:layout_margin="2dp"
+                        android:contentDescription="@string/heist_forward" android:text="@string/btn_forward" />
+
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnLeft"
+                        style="@style/Widget.Heist.Button.Drive" android:layout_width="64dp" android:layout_height="48dp"
+                        android:layout_row="1" android:layout_column="0" android:layout_margin="2dp"
+                        android:contentDescription="@string/heist_left" android:text="@string/btn_left" />
+
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnStop"
+                        style="@style/Widget.Heist.Button.Drive" android:layout_width="64dp" android:layout_height="48dp"
+                        android:layout_row="1" android:layout_column="1" android:layout_margin="2dp"
+                        android:contentDescription="@string/heist_stop_description" android:text="@string/heist_stop" />
+
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnRight"
+                        style="@style/Widget.Heist.Button.Drive" android:layout_width="64dp" android:layout_height="48dp"
+                        android:layout_row="1" android:layout_column="2" android:layout_margin="2dp"
+                        android:contentDescription="@string/heist_right" android:text="@string/btn_right" />
+
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnBackward"
+                        style="@style/Widget.Heist.Button.Drive" android:layout_width="64dp" android:layout_height="48dp"
+                        android:layout_row="2" android:layout_column="1" android:layout_margin="2dp"
+                        android:contentDescription="@string/heist_backward" android:text="@string/btn_backward" />
+                </GridLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnReady"
+                        style="@style/Widget.Heist.Button.Secondary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="4dp"
+                        android:text="@string/btn_ready"
+                        app:backgroundTint="#7279D1"
+                        app:cornerRadius="50dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnStart"
+                        style="@style/Widget.Heist.Button.Primary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="4dp"
+                        android:text="@string/btn_start_run"
+                        app:backgroundTint="#7279D1"
+                        app:cornerRadius="50dp" />
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnReset"
+                    style="@style/Widget.Heist.Button.Secondary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/btn_reset"
+                    app:backgroundTint="#7279D1"
+                    app:cornerRadius="50dp" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:text="@string/heist_events"
+                    android:textAppearance="@style/TextAppearance.Heist.Section" />
+
+                <androidx.core.widget.NestedScrollView android:id="@+id/statusScroll"
+                    android:layout_width="match_parent" android:layout_height="144dp" android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_heist_inset" android:fillViewport="true">
+                    <TextView android:id="@+id/statusText"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:padding="10dp" android:fontFamily="monospace"
+                        android:textColor="@color/status_text" android:textSize="12sp"
+                        android:textIsSelectable="true" />
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

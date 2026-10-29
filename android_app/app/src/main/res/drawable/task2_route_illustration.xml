@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="600dp"
+    android:height="360dp"
+    android:viewportWidth="600"
+    android:viewportHeight="360">
+
+    <!-- Red outer kerb / outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M95,255 C55,225 55,155 100,130 C150,102 245,132 292,98 C338,65 440,62 480,105 C520,148 466,183 500,216 C532,247 552,273 516,296 C470,325 414,272 367,258 C320,244 286,296 225,300 C165,304 127,283 95,255"
+        android:strokeColor="@color/heist_red"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="58" />
+
+    <!-- White kerb stripe -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M95,255 C55,225 55,155 100,130 C150,102 245,132 292,98 C338,65 440,62 480,105 C520,148 466,183 500,216 C532,247 552,273 516,296 C470,325 414,272 367,258 C320,244 286,296 225,300 C165,304 127,283 95,255"
+        android:strokeColor="@color/heist_text"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="48" />
+
+    <!-- Asphalt -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M95,255 C55,225 55,155 100,130 C150,102 245,132 292,98 C338,65 440,62 480,105 C520,148 466,183 500,216 C532,247 552,273 516,296 C470,325 414,272 367,258 C320,244 286,296 225,300 C165,304 127,283 95,255"
+        android:strokeColor="@color/heist_surface_raised"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="40" />
+
+    <!-- Decorative racing centre line; this illustration has no live robot marker. -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M95,255 C55,225 55,155 100,130 C150,102 245,132 292,98 C338,65 440,62 480,105 C520,148 466,183 500,216 C532,247 552,273 516,296 C470,325 414,272 367,258 C320,244 286,296 225,300 C165,304 127,283 95,255"
+        android:strokeColor="@color/heist_text_secondary"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2" />
+
+    <!-- Start / finish stripe -->
+    <path
+        android:fillColor="@color/heist_text"
+        android:pathData="M77,240 L109,240 L109,250 L77,250 Z" />
+
+    <path
+        android:fillColor="@color/heist_background"
+        android:pathData="M77,240 L85,240 L85,245 L77,245 Z M93,240 L101,240 L101,245 L93,245 Z M85,245 L93,245 L93,250 L85,250 Z M101,245 L109,245 L109,250 L101,250 Z" />
+
+</vector>

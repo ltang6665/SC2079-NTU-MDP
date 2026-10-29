@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="comms_back">Back</string>
+    <string name="comms_title">Bluetooth</string>
+    <string name="comms_subtitle">Bluetooth connection</string>
+    <string name="comms_connection">Connection</string>
+    <string name="comms_connect_hint">Tap a device to connect to the robot.</string>
+    <string name="comms_scan">Scan</string>
+    <string name="comms_scanning">Scanning…</string>
+    <string name="comms_stop_connection">Stop</string>
+    <string name="comms_discovered">Nearby devices</string>
+    <string name="comms_paired_empty">No paired devices available. Scan to find a device.</string>
+    <string name="comms_discovered_empty">No devices found yet. Start a scan to search nearby.</string>
+    <string name="comms_discovered_scanning">Searching for nearby devices…</string>
+    <string name="comms_device_count">%1$d</string>
+    <plurals name="comms_device_count_accessibility">
+        <item quantity="one">%1$d device</item>
+        <item quantity="other">%1$d devices</item>
+    </plurals>
+    <string name="comms_received">Status log</string>
+    <string name="comms_send_message">Type message to send</string>
+    <string name="comms_message_hint">Type a message</string>
+    <string name="comms_device_connect">Connect ›</string>
+    <string name="comms_unknown_device">Unknown device</string>
+    <string name="comms_connect_device_accessibility">Connect to %1$s, %2$s</string>
+</resources>

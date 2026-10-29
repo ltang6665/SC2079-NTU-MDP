@@ -1,0 +1,23 @@
+<resources>
+    <style name="Base.Theme.Android_app" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/heist_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/heist_blue</item>
+        <item name="colorOnSecondary">@color/heist_background</item>
+        <item name="colorSurface">@color/heist_surface</item>
+        <item name="colorOnSurface">@color/heist_text</item>
+        <item name="colorOnSurfaceVariant">@color/heist_text_secondary</item>
+        <item name="colorOutline">@color/heist_border</item>
+        <item name="android:colorBackground">@color/heist_background</item>
+        <item name="android:windowBackground">@color/heist_background</item>
+        <item name="android:textColorPrimary">@color/heist_text</item>
+        <item name="android:textColorSecondary">@color/heist_text_secondary</item>
+        <item name="android:statusBarColor">@color/heist_background</item>
+        <item name="android:navigationBarColor">@color/heist_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialButtonStyle">@style/Widget.Heist.Button.Primary</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.Android_app" parent="Base.Theme.Android_app" />
+</resources>

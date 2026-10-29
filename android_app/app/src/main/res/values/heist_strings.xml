@@ -1,0 +1,37 @@
+<resources>
+    <string name="heist_title">THE JOB.</string>
+    <string name="heist_group">GROUP 28</string>
+    <string name="heist_identity">The insider</string>
+    <string name="heist_description">MDP Group 28\'s project.</string>
+    <string name="heist_briefing">Mission briefing</string>
+    <string name="heist_briefing_body">Plan the heist, steal the loot and launch the getaway.</string>
+    <string name="heist_connect">Connect Bluetooth</string>
+    <string name="heist_open_arena">Task 1 · The Heist</string>
+    <string name="heist_open_task2">Task 2 · The Getaway</string>
+    <string name="heist_arena_title">Task 1 / The Heist</string>
+    <string name="heist_home">Home</string>
+    <string name="heist_comms">Bluetooth</string>
+    <string name="heist_arena_help">Arena help</string>
+    <string name="heist_help_button">?</string>
+    <string name="heist_arena_legend">Blue: start zone   •   Gold edge: target face</string>
+    <string name="heist_manual_drive">Manual drive</string>
+    <string name="heist_stop">■</string>
+    <string name="heist_pose">Pose (%1$d, %2$d) · %3$s</string>
+    <string name="heist_obstacles">Obstacles %1$d\nIdentified %2$d</string>
+    <string name="heist_events">Mission updates</string>
+    <string name="heist_help_title">Set up the arena</string>
+    <string name="heist_help_body">1. Connect Bluetooth, then tap an empty square to add an obstacle.\n\n2. Drag an obstacle to move it. Drag outside the grid to remove it.\n\n3. Hold an obstacle to choose its target face. The gold edge shows the selected face.\n\n4. Tap Start when the arena is set up. Manual drive and Stop send commands to the robot.\n\nBlue cells mark the start zone. Obstacle numbers stay white; recognized target IDs appear larger. The robot arrow and N/E/S/W label show its heading.</string>
+    <string name="heist_got_it">Got it</string>
+    <string name="heist_reset_title">Reset this arena?</string>
+    <string name="heist_leave_title">Leave this arena?</string>
+    <string name="heist_leave_body">Returning home clears this arena layout. The Bluetooth connection stays open.</string>
+    <string name="heist_leave">Leave arena</string>
+    <string name="heist_reset_body">Clears the obstacles and returns the on-screen robot to its start position. This does not send a stop command.</string>
+    <string name="heist_cancel">Cancel</string>
+    <string name="heist_arena_description">20 by 20 arena. Tap to place obstacles, hold to choose a target face, drag to move, or drag outside the grid to remove.</string>
+    <string name="heist_forward">Move forward</string>
+    <string name="heist_backward">Move backward</string>
+    <string name="heist_left">Turn left</string>
+    <string name="heist_right">Turn right</string>
+    <string name="heist_stop_description">Send stop command</string>
+</resources>

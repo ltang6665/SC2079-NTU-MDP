@@ -1,0 +1,5 @@
+python-dotenv
+pyserial
+PyBluez
+picamera
+requests
