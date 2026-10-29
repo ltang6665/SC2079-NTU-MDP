@@ -6,7 +6,7 @@
 | `RPI/` | Task 1 segment controller, Task 2 SmoothFlow controller, communication/streaming modules, and tests |
 | `IMAGE/` | Image preparation/training scripts and the identical new detector checkpoint |
 | `android_app/` | Complete supplied Android project, unchanged |
-| `stm_submission/` | Complete Task 1 and Task 2 STM32CubeIDE projects |
+| `STM_code/` | Complete Task 1 and Task 2 STM32CubeIDE projects |
 
 ## Running
 
